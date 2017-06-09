@@ -14,16 +14,23 @@ h2 {
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 20px;
+	margin: auto;
+	padding-bottom: 15px;
+	text-transform: uppercase;
 }
 a{
 	font-family: "Raleway", sans-serif;
 	color: #Ffffff;
 	letter-spacing: 1px;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 18px;
 	text-decoration: none;
-	padding: 20px;
+	margin: 10px 15px;
 	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+}
+a:hover{
+	border-bottom: 2px solid white;
 }
 p {
 	font-family: "Droid Serif", serif;
@@ -57,6 +64,7 @@ footer {
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500px;
+	padding: 15px;
 }
 
 .copyright {
@@ -67,6 +75,11 @@ footer {
 .message {
 	font-family: "Raleway", sans-serif;
 	float: right;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
 
 .clearfix:after {
